@@ -1,0 +1,14 @@
+/* I am writing it on 10-09-2025 time:18:45
+manifest.json file is mandatory for any extension, i am not publishing it due to cost*/
+
+{
+    "name":"Joke BS",
+    "description":"Get a chance to laugh every day",
+    "version":"0.0.1",
+    "manifest_version":3,
+    "permissions":["storage","activeTab","scripting"],/* it is not mandotary to write it useto give permission to other to use it*/
+    "action":{
+        "default_popup":"popup.html",
+        "default_icon":"icon.WEBP"
+    }
+}
